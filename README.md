@@ -45,7 +45,7 @@ cd A1
 
 ### 2. **Open in VS Code with Docker**
 
-- Open **VS Code** and navigate to the `INFO5940_A1` folder.
+- Open **VS Code** and navigate to the `A1` folder.
 - Open the Command Palette:
   - Press `Ctrl+Shift+P` on **Windows/Linux** or `Cmd+Shift+P` on **macOS**.
 - Search for: `Remote-Containers: Reopen in Container` and select it.
