@@ -43,13 +43,9 @@ git clone https://github.com/shar-sun/A1.git
 cd A1
 ```
 
-### 2. **Open in VS Code with Docker**
+### 2. **Open in VS Code**
 
 - Open **VS Code** and navigate to the `A1` folder.
-- Open the Command Palette:
-  - Press `Ctrl+Shift+P` on **Windows/Linux** or `Cmd+Shift+P` on **macOS**.
-- Search for: `Remote-Containers: Reopen in Container` and select it.
-- VS Code will build and open the project inside the Docker container automatically.
 
 ### 3. **Create a `.env` File**
     
@@ -61,9 +57,19 @@ OPENAI_BASE_URL=your-api-base-url-here
 TZ=your-timezone-here
 ```
 
-### 4. **Reopen in Container**
+### 4. **Open with Docker**
+- Open the Command Palette:
+  - Press `Ctrl+Shift+P` on **Windows/Linux** or `Cmd+Shift+P` on **macOS**.
+- Search for: `Remote-Containers: Reopen in Container` and select it.
+- VS Code will build and open the project inside the Docker container automatically.
 
-If you’re not already inside the container, press `F1`, then select `Remote-Containers: Reopen in Container`. This will build the Docker container and open the project inside the container.
+### 4. **Install PyPDF2 in your environment**
+
+We are using the `PdfReader` class from the `PyPDF2` library. You can install is using pip:  
+
+```bash
+pip install PyPDF2
+```
 
 ### 5. **Run the Application**
 
@@ -78,18 +84,6 @@ streamlit run chat_with_pdf.py
 - Open the URL provided by **Streamlit** in your browser (usually `http://localhost:8501`).
 - Upload `.txt` and `.pdf` files using the provided interface.
 - Interact with the chatbot by asking questions related to the content of the uploaded documents.
-
----
-
-## 🔄 Changes Made to Provided Configuration
-
-### 📦 **Dependencies Added**
-
-- Added `PyPDF2 = "*"` in `pyproject.toml` to enable PDF parsing functionality.
-
-### 🐳 **Docker & DevContainer Modifications**
-
-- Updated Docker configuration to include additional libraries needed for file processing (`PyPDF2` and `LangChain`).
 
 ---
 
