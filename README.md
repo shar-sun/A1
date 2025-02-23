@@ -40,7 +40,7 @@ Clone the repository to your local machine:
 
 ```bash
 git clone https://github.com/shar-sun/A1.git
-cd INFO5940_A1
+cd A1
 ```
 
 ### 2. **Open in VS Code with Docker**
