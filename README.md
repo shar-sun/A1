@@ -65,7 +65,7 @@ TZ=your-timezone-here
 
 ### 5. **Install PyPDF2 in your environment**
 
-We are using the `PdfReader` class from the `PyPDF2` library. If PyPDF2 is not installed, you can install it using pip:  
+We are using the `PdfReader` class from the `PyPDF2` library. If `PyPDF2` is not installed, you can install it using pip:  
 
 ```bash
 pip install PyPDF2
