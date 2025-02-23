@@ -11,7 +11,7 @@
 
 1. **Clone the Repository**:
     ```bash
-    git clone https://github.com/your-repo.git
+    git clone https://github.com/shar-sun/INFO5940_A1
     cd A1_xs77
     ```
 
