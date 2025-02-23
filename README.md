@@ -1,4 +1,3 @@
-# INFO-5940
 # Files Q&A with OpenAI
 
 ## Prerequisites
