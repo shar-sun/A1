@@ -63,15 +63,7 @@ TZ=your-timezone-here
 - Search for: `Remote-Containers: Reopen in Container` and select it.
 - VS Code will build and open the project inside the Docker container automatically.
 
-### 5. **Install PyPDF2 in your environment**
-
-We are using the `PdfReader` class from the `PyPDF2` library. If `PyPDF2` is not installed, you can install it using pip:  
-
-```bash
-pip install PyPDF2
-```
-
-### 6. **Run the Application**
+### 5. **Run the Application**
 
 Open a terminal in Visual Studio Code and run the following command:
 
@@ -79,7 +71,7 @@ Open a terminal in Visual Studio Code and run the following command:
 streamlit run chat_with_pdf.py
 ```
 
-### 7. **Upload Files and Ask Questions**
+### 6. **Upload Files and Ask Questions**
 
 - Open the URL provided by **Streamlit** in your browser (usually `http://localhost:8501`).
 - Upload `.txt` and `.pdf` files using the provided interface.
